@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es5"
-  }
+    "outDir": "output",
+    "module": "commonjs",
+    "target": "es2015",
+    "sourceMap": true,
+    "sourceRoot": "src",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

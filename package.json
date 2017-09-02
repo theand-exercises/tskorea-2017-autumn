@@ -1,0 +1,17 @@
+{
+  "name": "tskorea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "transpile": "tsc",
+    "transpile:watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
