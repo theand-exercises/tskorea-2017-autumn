@@ -2,10 +2,11 @@
   "compilerOptions": {
     "outDir": "output",
     "module": "commonjs",
-    "target": "es2015",
+    "target": "es3",
     "sourceMap": true,
     "sourceRoot": "src",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "experimentalDecorators": true
   },
   "exclude": [
     "node_modules"
